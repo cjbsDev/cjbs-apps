@@ -1,5 +1,5 @@
 {
-  "name": "saas",
+  "name": "ShotgunAPI",
   "private": true,
   "scripts": {
     "dev": "next dev",
