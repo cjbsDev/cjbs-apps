@@ -1,0 +1,19 @@
+{
+    "list":"실물샘플 목록",
+    "status":"상태",
+    "experimentType":"실험 구분",
+    "sampleType" : "샘플 구분",
+    "name" : "샘플명",
+    "sampleNow" : "샘플 현황",
+    "totalSample" : "총 샘플 수",
+    "collectdSample" : "회수 완료 수",
+    "uncollectSample" : "미회수 수",
+    "samplingDate" : "수집일",
+    "taxonomy" : "분류체계",
+    "source" : "출처",
+    "sampleCode" : "샘플 코드",
+    "sampleID" : "샘플 아이디",
+    "subjectCode" : "대상 코드",
+    "visitCode" : "방문 코드",
+    "researchInfo" : "연구 정보"
+}

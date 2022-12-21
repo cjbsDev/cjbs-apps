@@ -1,0 +1,19 @@
+{
+    "list":"List",
+    "status":"Status",
+    "experimentType":"Experiment type",
+    "sampleType" : "Sample type",
+    "name" : "Name",
+    "sampleNow" : "Sample now",
+    "totalSample" : "Total sample",
+    "collectdSample" : "Collected sample",
+    "uncollectSample" : "Uncollected sample",
+    "samplingDate" : "Sampling date",
+    "taxonomy" : "Taxonomy",
+    "source" : "Source",
+    "sampleCode" : "Sample code",
+    "sampleID" : "Sample code",
+    "subjectCode" : "Subject code",
+    "visitCode" : "Visit code",
+    "researchInfo" : "Research info"
+}
