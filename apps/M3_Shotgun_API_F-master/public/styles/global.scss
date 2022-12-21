@@ -1,0 +1,30 @@
+html,
+body,
+#__next {
+  min-height: 100%;
+  height: 100%;
+  min-width: 1024px;
+}
+
+body {
+  background: #f5f5f5 !important;
+}
+
+/* link - 아직 클릭하지 않은 경우 red 색상 설정 */
+a:link {
+  color: #006ecd;
+  text-decoration: none;
+}
+
+/* visited - 한번 클릭하거나 전에 클릭한적 있을 경우 #c71d44 설정 */
+a:visited {
+  color: #006ecd;
+  text-decoration: none;
+}
+
+/* hover - 마우스를 해당 링크에 위치했을 경우 #006DD7 설정 */
+a:hover {
+  color: #006ecd;
+  text-decoration: underline;
+}
+

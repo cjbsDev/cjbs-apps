@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "cjone";
+  font-weight: bold;
+  src: url("../fonts/CJ_Bold.ttf");
+}
+@font-face {
+  font-family: "cjone";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/CJ_Medium.ttf");
+}

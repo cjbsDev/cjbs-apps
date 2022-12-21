@@ -1,0 +1,27 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "@src": "./src",
+          "@components": "./src/components",
+          "@styles": "./public/styles",
+          "@public": "./public"
+        },
+        "extensions": [".js", ".jsx", ".tsx"]
+      }
+    ],
+    [
+      "prismjs",
+      {
+        "languages": ["javascript", "css", "markup"],
+        "plugins": ["line-numbers"],
+        "theme": "okaidia",
+        "css": true
+      }
+    ]
+  ]
+}
