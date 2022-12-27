@@ -4,7 +4,7 @@
     "build": {
       "dependsOn": ["^build"],
       "env": [],
-      "outputs": ["dist/**", ".next/**"]
+      "outputs": ["dist/**", ".next/**", "storybook-static/**"]
     },
     "lint": {
       "outputs": []
