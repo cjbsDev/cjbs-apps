@@ -1,4 +1,6 @@
 import { Button } from "ui";
+import testImgUrl from "../img/ezbiocloudLogoBeta.png"
+import Image from 'next/image';
 
 export default function Web() {
   return (
@@ -6,8 +8,9 @@ export default function Web() {
       <h1>Websssss</h1>
       <Button />
       <p>New Feature test 1234%%!</p>
-      <p>{process.env.NEXT_PUBLIC_API_URL}</p>
-      <p>{process.env.NEXT_PUBLIC_EZMX_ID_AES_KEY}</p>
+      {/*<p>{process.env.NEXT_PUBLIC_API_URL}</p>*/}
+      {/*<p>{process.env.NEXT_PUBLIC_EZMX_ID_AES_KEY}</p>*/}
+      <Image src={testImgUrl} />
     </div>
   );
 }
