@@ -10,7 +10,7 @@ export default function Web() {
       <p>New Feature test 1234%%!</p>
       {/*<p>{process.env.NEXT_PUBLIC_API_URL}</p>*/}
       {/*<p>{process.env.NEXT_PUBLIC_EZMX_ID_AES_KEY}</p>*/}
-      <Image src={testImgUrl} />
+      <Image src={testImgUrl} alt="This is Test Alt!." />
     </div>
   );
 }
