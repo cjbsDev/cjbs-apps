@@ -1,24 +1,19 @@
 import * as React from "react";
 
-interface Props {
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement>{
   primary?: boolean;
   size?: "small" | "large";
   label?: string;
 }
 
-export const Button = ({
-  primary = false,
-  label = "Boop",
-  size = "small",
-}: Props) => {
+export const Button = (props: ButtonProps) => {
   return (
     <button
       style={{
-        backgroundColor: primary ? "red" : "blue",
-        fontSize: size === "large" ? "24px" : "14px",
+        backgroundColor: props.primary ? "red" : "blue",
+        fontSize: props.size === "large" ? "24px" : "14px",
       }}
-    >
-      {label}
-    </button>
+      {...props}
+    />
   );
 };
