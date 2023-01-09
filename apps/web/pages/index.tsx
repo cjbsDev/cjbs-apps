@@ -9,8 +9,6 @@ export default function Web() {
       <Button onClick={() => console.log('click')}>ㄲㄲㄲㄲButton</Button>
       <p>New Feature test 1234%%!</p>
       <Image src={testImgUrl} alt="This is Test Alt!." />
-      <Button onClick={() => console.log('click1')}>Button1</Button>
-      <Button onClick={() => console.log('click2')}>Button2</Button>
     </div>
   );
 }
