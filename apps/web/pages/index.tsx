@@ -15,7 +15,6 @@ export default function Web() {
       <Button onClick={() => console.log('click4')}>Button4</Button>
       <Button onClick={() => console.log('click4')}>Button5</Button>
       <Button onClick={() => console.log('click6')}>Button6</Button>
-      <Button onClick={() => console.log('click7')}>Button7</Button>
     </div>
   );
 }
