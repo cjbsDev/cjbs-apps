@@ -11,6 +11,7 @@ export default function Web() {
       <Image src={testImgUrl} alt="This is Test Alt!." />
       <Button onClick={() => console.log('click1')}>Button1</Button>
       <Button onClick={() => console.log('click2')}>Button2</Button>
+      <Button onClick={() => console.log('click3')}>Button3</Button>
     </div>
   );
 }
