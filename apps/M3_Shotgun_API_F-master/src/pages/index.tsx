@@ -52,7 +52,7 @@ const ShotgunPage = ({userInfoData}) => {
   return (
     <>
       <Head>
-        <title>Shotgun Metagenomics</title>
+        <title>Shotgun Metagenomics trtrtrtrr</title>
       </Head>
 
       <Snb open={openSnb} />
